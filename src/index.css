@@ -1,0 +1,241 @@
+/* Global Styles */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f9f9f9, #e3f2fd);
+    /* Light gradient background */
+    color: #333;
+    /* Darker text color for readability */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Code Block Styling */
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    /* Light background for code */
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    color: #d6336c;
+    /* Bright color for code text */
+}
+
+
+/* Container */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    /* Minimized container width */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Header Styling */
+
+header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    /* Gradient header */
+    color: white;
+    /* White text */
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 3px solid #003f7f;
+    /* Slightly darker border */
+}
+
+
+/* Form Styling */
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, white, #f2f4f7);
+    /* Subtle gradient for forms */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    /* Enhanced shadow */
+    margin-bottom: 20px;
+}
+
+form input,
+form button {
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+    /* Blue glow on focus */
+}
+
+form button {
+    background: linear-gradient(135deg, #28a745, #218838);
+    /* Gradient button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+form button:hover {
+    background: linear-gradient(135deg, #218838, #1e7e34);
+    /* Darker green on hover */
+    transform: scale(1.05);
+    /* Slight zoom effect */
+}
+
+
+/* Table Styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: linear-gradient(135deg, white, #f9f9f9);
+    /* Subtle gradient for tables */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    /* Enhanced shadow */
+}
+
+table th,
+table td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    /* Gradient header background */
+    color: white;
+    /* White text for headers */
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Alternating row background */
+}
+
+table tr:hover {
+    background-color: #e9ecef;
+    /* Light gray on hover */
+}
+
+
+/* Column Layout */
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    /* Single column layout */
+    gap: 20px;
+    padding: 20px;
+}
+
+.column {
+    background: linear-gradient(135deg, white, #f2f4f7);
+    /* Subtle gradient for columns */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    /* Enhanced shadow */
+}
+
+.column h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+
+/* Global Styles */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./image/ball.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f60a2a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Code Block Styling */
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    /* Light background for code */
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    color: #d6336c;
+    /* Bright color for code text */
+}
+
+
+/* Container */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    /* Slightly transparent background for better text visibility */
+    border-radius: 10px;
+}
+
+
+/* Header Styling */
+
+header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    /* Gradient header */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 3px solid #003f7f;
+}
+
+
+/* Form Styling */
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
